@@ -1,1 +1,3 @@
 # News_BOT
+
+The following project uses NLP (DocToVec) to train a model which lists top 5 matching news article related to the query spoken by User. In first part the Speech to Text model by Google is used to convert Speech to text. After that a trained model gives the list of top 5 matching news articles to the query spoken by the user. The model is trained on a dataset extracted from Hindu Website and contains news articles from previous 10 years. The Doc2Vec is used for vector representation of the articles. In the last part a text summariser is used which generates a brief summary of the article before displaying the matching article.
